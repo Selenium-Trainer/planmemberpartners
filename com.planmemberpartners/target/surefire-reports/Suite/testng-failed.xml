@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <parameter name="COUNTRY" value="United Kingdom"/>
+  <parameter name="SDS_SEARCH" value="fluid"/>
+  <parameter name="URL" value="https://consumer.uat.dow.com/"/>
+  <parameter name="Browser" value="chrome"/>
+  <test name="Dow_com_Homepage(failed)" parallel="none">
+    <parameter name="COUNTRY" value="United Kingdom"/>
+    <parameter name="SDS_SEARCH" value="fluid"/>
+    <parameter name="URL" value="https://consumer.uat.dow.com/"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="IDC_DOW.Testing.SmokeTesting">
+        <methods>
+          <include name="afterMethodConfig"/>
+          <include name="startReport"/>
+          <include name="Language_Change" invocation-numbers="0"/>
+          <include name="endReport"/>
+          <include name="launchBrowser"/>
+          <include name="beforeSuiteConfig"/>
+          <include name="afterSuiteConfig"/>
+        </methods>
+      </class> <!-- IDC_DOW.Testing.SmokeTesting -->
+    </classes>
+  </test> <!-- Dow_com_Homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" thread-count="3" parallel="none">
+	<parameter name="environment" value="dev" />
+	<parameter name="browser" value="chrome" />
+	<test name="planmemberpartners_BusinessConnect">
+		<classes>
+			<class name="com.infoane.businessConnect.test.BusinessConnect" />
+		</classes>
+	</test>
+	<test name="planmemberpartners_ClientBridge">
+		<classes>
+			<class name="com.infoane.clientConnect.test.ClientBridge" />
+		</classes>
+	</test>
+</suite>

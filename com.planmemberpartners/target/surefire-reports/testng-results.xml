@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24897" started-at="2018-03-19T05:06:39Z" finished-at="2018-03-19T05:07:04Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="SmokeTesting.Dow_com_Homepage(org.testng.ITestContext)[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="Dow_com_Homepage" class="IDC_DOW.Testing.SmokeTesting"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Dow_com_Homepage" duration-ms="24897" started-at="2018-03-19T05:06:39Z" finished-at="2018-03-19T05:07:04Z">
+      <class name="IDC_DOW.Testing.SmokeTesting">
+        <test-method status="PASS" signature="beforeSuiteConfig(org.testng.ITestContext)[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="beforeSuiteConfig" is-config="true" duration-ms="226" started-at="2018-03-19T10:36:39Z" finished-at="2018-03-19T10:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e01f9b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteConfig -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="startReport" is-config="true" duration-ms="667" started-at="2018-03-19T10:36:39Z" finished-at="2018-03-19T10:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="launchBrowser" is-config="true" duration-ms="12543" started-at="2018-03-19T10:36:40Z" finished-at="2018-03-19T10:36:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e01f9b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="Dow_com_Homepage(org.testng.ITestContext)[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="Dow_com_Homepage" duration-ms="8849" started-at="2018-03-19T10:36:53Z" finished-at="2018-03-19T10:37:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e01f9b0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dow_com_Homepage -->
+        <test-method status="PASS" signature="afterMethodConfig(org.testng.ITestResult)[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="afterMethodConfig" is-config="true" duration-ms="2142" started-at="2018-03-19T10:37:01Z" finished-at="2018-03-19T10:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Dow_com_Homepage status=SUCCESS method=SmokeTesting.Dow_com_Homepage(org.testng.ITestContext)[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodConfig -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="endReport" is-config="true" duration-ms="654" started-at="2018-03-19T10:37:04Z" finished-at="2018-03-19T10:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="afterSuiteConfig()[pri:0, instance:IDC_DOW.Testing.SmokeTesting@7e0ea639]" name="afterSuiteConfig" is-config="true" duration-ms="1745" started-at="2018-03-19T10:37:04Z" finished-at="2018-03-19T10:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteConfig -->
+      </class> <!-- IDC_DOW.Testing.SmokeTesting -->
+    </test> <!-- Dow_com_Homepage -->
+  </suite> <!-- Suite -->
+</testng-results>
